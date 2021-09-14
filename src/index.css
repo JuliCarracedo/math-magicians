@@ -1,60 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 .button {
-    display: flex;
-    width: 7vw;
-    height: 6vw;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    margin: 0.5vw
+  display: flex;
+  width: 7vw;
+  height: 6vw;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin: 0.5vw;
 }
 
 .big-button {
-    display: flex;
-    width: 15vw;
-    height: 6vw;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    margin: 0.5vw
+  display: flex;
+  width: 15vw;
+  height: 6vw;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin: 0.5vw;
 }
 
 .field {
-    display: flex;
-    align-content: end;
-    justify-content: end;
-    background-color: #444;
-    color: rgb(216, 216, 216);
-    height: 5vw;
-    font-size: 30px;
+  display: flex;
+  align-content: end;
+  justify-content: end;
+  background-color: #444;
+  color: rgb(216, 216, 216);
+  height: 5vw;
+  font-size: 30px;
 }
 
 #field-text {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .gray {
-    background-color: gray;
+  background-color: gray;
 }
 
 .orange {
-    background-color: orange;
+  background-color: orange;
 }
 
 .row {
-    display: flex;
-    width: 30vw;
+  display: flex;
+  width: 30vw;
 }
 
 .table {
-    background-color: #444;
-    width: fit-content;
-    border-radius: 10px;
-    padding: 5px;
-    margin: auto;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+  background-color: #444;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
 }
