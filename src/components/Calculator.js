@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
-import React from 'react';
+import { Component } from 'react';
 
-class Calculator extends React.Component {
+class Calculator extends Component {
   render() {
     return (
       <div className="table">
