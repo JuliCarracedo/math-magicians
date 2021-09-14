@@ -4,6 +4,8 @@
 
 > Get ready to do all the calculations you want, and get inspired by the greatest mathematicians ever.
 
+![](./public/screen1.PNG)
+
 ## Built With
 
 - Major languages
