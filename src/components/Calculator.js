@@ -1,5 +1,9 @@
 /* eslint-disable react/prefer-stateless-function */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+
 import { Component } from 'react';
+import calculate from '../logic/calculate';
 
 class Calculator extends Component {
   render() {
@@ -7,10 +11,10 @@ class Calculator extends Component {
       <div className="table">
         <div className="row field"><p id="field-text">Welcome</p></div>
         <div className="row">
-          <div className="button gray">AC</div>
-          <div className="button gray">+/-</div>
-          <div className="button gray">%</div>
-          <div className="button orange">/</div>
+          <div className="button gray" onClick={calculate(obj, 'AC')}>AC</div>
+          <div className="button gray" onClick={calculate(obj, 'AC')}>+/-</div>
+          <div className="button gray" onClick={calculate(obj, 'AC')}>%</div>
+          <div className="button orange" onClick={calculate(obj, 'AC')}>/</div>
         </div>
         <div className="row">
           <div className="button gray">7</div>
