@@ -3,41 +3,40 @@
 .button {
   display: flex;
   width: 7vw;
-  height: 6vw;
+  height: 4vw;
   font-size: 20px;
   justify-content: center;
   align-items: center;
-  border-radius: 25px;
-  margin: 0.5vw;
+  margin: 0.1vw;
 }
 
 .big-button {
   display: flex;
-  width: 15vw;
-  height: 6vw;
+  width: 14.2vw;
+  height: 4vw;
   font-size: 20px;
   justify-content: center;
   align-items: center;
-  border-radius: 25px;
-  margin: 0.5vw;
+  margin: 0.1vw;
 }
 
 .field {
   display: flex;
-  align-content: end;
+  align-content: center;
   justify-content: end;
-  background-color: #444;
-  color: rgb(216, 216, 216);
-  height: 5vw;
-  font-size: 30px;
+  background-color: #666;
+  color: #fff;
+  height: 4vw;
+  font-size: 20px;
 }
 
 #field-text {
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .gray {
-  background-color: gray;
+  background-color: #ddd;
 }
 
 .orange {
@@ -46,14 +45,13 @@
 
 .row {
   display: flex;
-  width: 30vw;
+  width: 28vw;
 }
 
 .table {
-  background-color: #444;
+  background-color: #888;
   width: fit-content;
-  border-radius: 10px;
-  padding: 5px;
+  padding: 1px;
   margin: auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
