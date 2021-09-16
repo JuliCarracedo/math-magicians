@@ -9,11 +9,7 @@ const App = () => {
   });
 
   const updateState = (obj) => {
-    setCalculatorObj(
-      {
-        calculatorObj: obj,
-      },
-    );
+    setCalculatorObj(obj);
   };
 
   return (

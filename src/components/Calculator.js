@@ -6,7 +6,6 @@ import calculate from '../logic/calculate';
 
 const Calculator = (props) => {
   let { calculatorObj } = props;
-
   const clickButton = (obj, button) => {
     const { updateState } = props;
     let newObj;
@@ -42,7 +41,6 @@ const Calculator = (props) => {
         result = total;
       }
     }
-
     return result;
   };
 
