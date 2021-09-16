@@ -20,7 +20,7 @@ class Calculator extends Component {
       newObj = calculate(obj, button);
     } catch {
       newObj = {
-        total: "Can't perform module operation by 0",
+        total: "Something went wrong",
       };
     }
     this.calculatorObj = newObj;
