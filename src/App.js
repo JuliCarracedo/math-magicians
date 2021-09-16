@@ -1,36 +1,22 @@
-/* eslint-disable react/prefer-stateless-function */
-import { Component } from 'react';
+import { useState } from 'react';
 import Calculator from './components/Calculator';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      calculatorObj: {
-        total: null,
-        next: null,
-        operation: null,
-      },
-    };
-    this.updateState = this.updateState.bind(this);
-  }
+const App = () => {
+  const [calculatorObj, setCalculatorObj] = useState({
+    total: 0,
+    next: null,
+    operation: null,
+  });
 
-  updateState(obj) {
-    this.setState(
-      {
-        calculatorObj: obj,
-      },
-    );
-  }
+  const updateState = (obj) => {
+    setCalculatorObj(obj);
+  };
 
-  render() {
-    const { calculatorObj } = this.state;
-    return (
-      <body>
-        <Calculator updateState={this.updateState} calculatorObj={calculatorObj} />
-      </body>
-    );
-  }
-}
+  return (
+    <body>
+      <Calculator updateState={updateState} calculatorObj={calculatorObj} />
+    </body>
+  );
+};
 
 export default App;
