@@ -29,9 +29,7 @@ class Calculator extends Component {
 
   displayResult() {
     const { calculatorObj } = this.props;
-    const { total } = calculatorObj;
-    const { next } = calculatorObj;
-    const { operation } = calculatorObj;
+    const { total, next, operation } = calculatorObj;
     let result = null;
 
     if (total === null && next === null) {
@@ -61,7 +59,6 @@ class Calculator extends Component {
       <div className="table">
         <div className="row field">
           <p id="field-text">
-            {' '}
             { this.displayResult() }
           </p>
         </div>
