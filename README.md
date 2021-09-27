@@ -46,6 +46,11 @@ To get a local copy up and running follow these simple example steps.
 
 - You can launch the React app using ```npm start``` on your integrated console
 
+## Deployment
+
+- Open https://juli-carra-math-magicians.herokuapp.com/calc or run ```heroku open``` to deploy on Heroku.
+- Open https://tender-feynman-c4f75b.netlify.app to deploy on Netlify.
+
 ## Author
 
 👤 **Julian Carracedo**
